@@ -18,6 +18,14 @@ const PORT = process.env.PORT || 5000;
 app.use(cors({ origin: "*" }));
 app.use(express.json({ limit: "10mb" }));
 
+// Root route
+app.get("/", (_req: Request, res: Response) => {
+  res.json({
+    message: "AI Fitness & Nutrition Assistant API is running",
+    status: "healthy"
+  });
+});
+
 // Health Check
 app.get("/api/health", (_req: Request, res: Response) => {
   res.json({
