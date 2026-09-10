@@ -1,1 +1,0 @@
-Deploy this folder as a Node service on Render or another Node host. Build command: `npm install`. Start command: `npm start`. Set `PORT` and optional AI environment variables. `/health` is the health check endpoint.

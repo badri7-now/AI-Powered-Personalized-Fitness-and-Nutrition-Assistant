@@ -1,1 +1,0 @@
-Run `schema.sql` in the Supabase SQL Editor. Then enable the email provider you want under Authentication. Google and Apple buttons in the mobile app require those providers and redirect URLs to be configured in Supabase.

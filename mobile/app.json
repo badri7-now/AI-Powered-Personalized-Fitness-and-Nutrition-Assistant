@@ -1,1 +1,0 @@
-{"expo":{"name":"AI Fitness & Nutrition Assistant","slug":"ai-fitness-nutrition","version":"1.0.0","orientation":"portrait","scheme":"aifitness","userInterfaceStyle":"automatic","plugins":["expo-secure-store"],"android":{"package":"com.aifitness.assistant"},"ios":{"bundleIdentifier":"com.aifitness.assistant"},"web":{"bundler":"metro"}}}
